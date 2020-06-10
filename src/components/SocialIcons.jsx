@@ -4,7 +4,7 @@ const SocialIcons = props => (
   <ul {...props}>
     <li>
       <a
-        href="https://www.facebook.com/cee.bryanwrites"
+        href="https://web.facebook.com/dennis.njogu.10"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -13,7 +13,7 @@ const SocialIcons = props => (
     </li>
     <li>
       <a
-        href="https://twitter.com/cee_bryce"
+        href="https://twitter.com/dennisndegwa13"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -22,7 +22,7 @@ const SocialIcons = props => (
     </li>
     <li>
       <a
-        href="https://github.com/Bryan-Cee/"
+        href="https://github.com/Njogu-Ndegwa"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -31,14 +31,14 @@ const SocialIcons = props => (
     </li>
     <li>
       <a
-        href="https://stackoverflow.com/users/11008613/bryan-cee"
+        href="https://stackoverflow.com/users/12456923/dennis-njogu"
         target="_blank"
         rel="noopener noreferrer"
       >
         <i className="fa fa-stack-overflow" />
       </a>
     </li>
-    <li>
+    {/* <li>
       <a
         href="https://www.linkedin.com/in/bryan-cee/"
         target="_blank"
@@ -46,10 +46,10 @@ const SocialIcons = props => (
       >
         <i className="fa fa-linkedin" />
       </a>
-    </li>
+    </li> */}
     <li>
       <a
-        href="https://medium.com/@bryancee"
+        href="https://medium.com/@dennisnjogu"
         target="_blank"
         rel="noopener noreferrer"
       >

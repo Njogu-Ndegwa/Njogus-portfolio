@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://Bryan-Cee.github.io/",
   "dependencies": {
+    "axios": "^0.19.2",
     "eslint": "5.12.0",
     "eslint-config-airbnb": "^17.1.0",
     "firebase": "^5.9.1",

@@ -1,13 +1,13 @@
 import firebase from 'firebase/app';
 
 const config = {
-  apiKey: 'AIzaSyBmEKmKa4d2m_aqya8nH_45FkdQqb7-KQI',
-  authDomain: 'personal-resume-f81c4.firebaseapp.com',
-  databaseURL: 'https://personal-resume-f81c4.firebaseio.com',
-  projectId: 'personal-resume-f81c4',
-  storageBucket: 'personal-resume-f81c4.appspot.com',
-  messagingSenderId: '1005730961132',
-  appId: '1:1005730961132:web:8cae6f664ed66144'
+    apiKey: "AIzaSyBGyEJ288XQu1xFE_Ks3kVvAFGFdLFA7m0",
+    authDomain: "mr-ndegwa.firebaseapp.com",
+    databaseURL: "https://mr-ndegwa.firebaseio.com",
+    projectId: "mr-ndegwa",
+    storageBucket: "mr-ndegwa.appspot.com",
+    messagingSenderId: "448469653864",
+    appId: "1:448469653864:web:27f9af643d445fe2f21edd"
 };
 
 firebase.initializeApp(config);

@@ -40,7 +40,7 @@ const About = ({ userInfo, frameworks }) => (
               <Framework frameworks={frameworks} />
             </div>
             <a
-              href="https://resume.github.io/?Bryan-Cee"
+              href="https://resume.github.io/?Njogu-Ndegwa"
               className="btn btn-fill wow fadeInUp"
               rel="noopener noreferrer"
               data-wow-duration="0.8s"

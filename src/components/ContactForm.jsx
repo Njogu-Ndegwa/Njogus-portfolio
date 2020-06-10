@@ -1,7 +1,7 @@
 import React from 'react';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import firebase from '../helper/firebase';
+import firebase, {Axios, db} from '../helper/firebase';
 
 
 class ContactForm extends React.Component {
@@ -16,13 +16,15 @@ class ContactForm extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault();
 
-    const sendMail = firebase.functions().httpsCallable('sendMail');
-    const contactUs = firebase.database().ref().child('contactUs');
-    contactUs.push(this.state).then(() => {
-      this.setState({ ...this.initialState });
-      toast.success('Message Sent');
-      sendMail().then(res => console.log(res).catch(err => console.log(err.message)));
-    });
+    // const sendMail = firebase.functions().httpsCallable('sendMail');
+    // const contactUs = firebase.database().ref().child('contactUs');
+    // contactUs.push(this.state).then(() => {
+    //   this.setState({ ...this.initialState });
+    //   toast.success('Message Sent');
+    //   sendMail().then(res => console.log(res).catch(err => console.log(err.message)));
+    // });
+
+    this.sendEmail()
   };
 
   handleChange = (e) => {
@@ -30,6 +32,30 @@ class ContactForm extends React.Component {
       [e.target.name]: e.target.value
     });
   };
+
+  sendEmail = () => {
+    Axios.post(
+      'https://us-central1-mr-ndegwa.cloudfunctions.net/submit',
+      this.state
+    )
+
+    .then(res => {
+        db.collection('emails').add({
+          name: this.state.name,
+          email: this.state.email,
+          message: this.state.message,
+          time: new Date(),
+        })
+    })
+    .then(() => {
+      this.setState({ ...this.initialState });
+      toast.success('Message Sent');
+    })
+
+    .catch(error => {
+      console.log(error)
+    })
+  }
 
   render() {
     const { name, email, message } = this.state;

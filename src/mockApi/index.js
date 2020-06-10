@@ -19,16 +19,6 @@ export default {
       id: 4,
       stack: 'HTML&CSS',
       level: '80%'
-    },
-    {
-      id: 5,
-      stack: 'Python/Django',
-      level: '70%'
-    },
-    {
-      id: 6,
-      stack: 'Python/Flask',
-      level: '60%'
     }
   ],
   softSkills: [
@@ -49,7 +39,7 @@ export default {
       level: 90
     }
   ],
-  frameworks: ['ReactJS', 'Vanilla JS', 'HTML', 'CSS', 'Python', 'Django', 'Flask'],
+  frameworks: ['ReactJS', 'Vanilla JS', 'HTML', 'CSS'],
   stacks: [
     {
       id: 1,
@@ -69,12 +59,12 @@ export default {
   ],
   userInfo: {
     pic:
-      'https://firebasestorage.googleapis.com/v0/b/bryce-portfolio.appspot.com/o/Screenshot_2019-05-21_at_19-removebg.png?alt=media&token=cd95004b-42d8-468b-8c76-2b8b4e40ff31',
+      'https://firebasestorage.googleapis.com/v0/b/mr-ndegwa.appspot.com/o/portfolio3.png?alt=media&token=39364310-073a-43c3-a34d-021bbee1ca7e',
     address: 'Nairobi, Kenya',
-    email: 'cheruiyotbryan@gmail.com',
-    phone: '+254 702 820 863',
+    email: 'dennisndegwa57@gmail.com',
+    phone: '+254 795 635 364',
     title: 'Software Engineer',
-    name: 'Brian Cheruiyot',
+    name: 'Dennis Ndegwa',
     bio:
       'I am a self-motivated and goal oriented individual with the ability to follow through with projects from inception to completion using analytical and problem-solving skills.'
   },
