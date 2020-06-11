@@ -3,7 +3,7 @@ export default {
     {
       id: 1,
       stack: 'Git',
-      level: '98%'
+      level: '90%'
     },
     {
       id: 2,
@@ -14,6 +14,12 @@ export default {
       id: 3,
       stack: 'Javascript/VanillaJS',
       level: '85%'
+    },
+
+    {
+      id: 3,
+      stack: 'Javascript/NodeJS/ExpressJs',
+      level: '70%'
     },
     {
       id: 4,
@@ -39,17 +45,17 @@ export default {
       level: 90
     }
   ],
-  frameworks: ['ReactJS', 'Vanilla JS', 'HTML', 'CSS'],
+  frameworks: ['ReactJS', 'Vanilla JS', 'Node js', 'HTML', 'CSS'],
   stacks: [
     {
       id: 1,
       title: 'API Development',
-      description: 'Proficient in building robust and scalable REST APIs. I have ample experience building APIs with GraphQL. Skilled in building APIs and web backend with Django, NodeJS, Express, Apollo.'
+      description: 'Proficient in building robust and scalable REST APIs. I have ample experience building APIs with Node js and Express js.'
     },
     {
       id: 2,
       title: 'Web Development',
-      description: 'Proficient in building professional web frontend with top frameworks like ReactJS and VanillaJS. I also have worked with NextJS for server side rendered applications'
+      description: 'Proficient in building professional web frontend with top frameworks like ReactJS and VanillaJS. I also have worked with ExpressJs for server side rendered applications'
     },
     {
       id: 3,
@@ -73,47 +79,44 @@ export default {
       {
         id: 4,
         title: 'Freelance Developer',
-        timeline: 'Oct 2019 – Present',
+        timeline: 'May 2020  – Present',
         company: 'Freelance',
         description: `<strong>Responsibilities</strong> <br />
         <ul>
           <li>Work as a freelancer on various projects offered by clients who need websites that work and backend systems that perform well.</li>
         </ul>`
       },
-      {
-        id: 3,
-        title: 'Software Development Engineer in Testing',
-        timeline: 'Oct 2019 – Present',
-        company: 'Microsoft via Techno Brain Group',
-        description: `<strong>Responsibilities</strong> <br />
-        <ul>
-          <li>Develop test suites for windows systems.</li>
-        </ul>`
-      },
-      {
-        id: 2,
-        title: 'Product Owner',
-        timeline: 'Jun 2019 – Sep 2019 • 4 mos',
-        company: 'Andela',
-        description: `<strong>Responsibilities</strong> <br />
-        <ul>
-          <li>Developed user stories documenting business and functional requirements. Facilitated feasibility and backlog grooming discussions.</li>
-          <li>Maintained product backlogs and determined story candidates for release based on value, feasibility, and business and customer impact.</li>
-          <li>Tested requirements at all stages of the project, including functional validation and smoke testing of development deliverables to ensure compliance with the functional requirements as specified.</li>
-        </ul>`
-      },
+      // {
+      //   id: 3,
+      //   title: 'Software Development Engineer in Testing',
+      //   timeline: 'Oct 2019 – Present',
+      //   company: 'Microsoft via Techno Brain Group',
+      //   description: `<strong>Responsibilities</strong> <br />
+      //   <ul>
+      //     <li>Develop test suites for windows systems.</li>
+      //   </ul>`
+      // },
+      // {
+      //   id: 2,
+      //   title: 'Product Owner',
+      //   timeline: 'Jun 2019 – Sep 2019 • 4 mos',
+      //   company: 'Andela',
+      //   description: `<strong>Responsibilities</strong> <br />
+      //   <ul>
+      //     <li>Developed user stories documenting business and functional requirements. Facilitated feasibility and backlog grooming discussions.</li>
+      //     <li>Maintained product backlogs and determined story candidates for release based on value, feasibility, and business and customer impact.</li>
+      //     <li>Tested requirements at all stages of the project, including functional validation and smoke testing of development deliverables to ensure compliance with the functional requirements as specified.</li>
+      //   </ul>`
+      // },
       {
         id: 1,
         title: 'Software Engineer',
-        timeline: 'Nov 2018 – Oct 2019 • 1 Year',
-        company: 'Andela',
+        timeline: 'Jul 2019 – May 2020 • 10 mos',
+        company: 'Ciphercom',
         description: `<p>
-                Andela provides companies with access to the top 1% of global tech talent.
-                We identify high-potential developers on the African continent, shape them
-                into world-class technical leaders, and pair them with companies as full-time,
-                distributed team members. This allows Andela's partners, which range from startups
-                to Fortune 500s, to accelerate their product roadmaps while minimizing time
-                spent interviewing, onboarding, and training new hires.
+                Ciphercom Technology Solutions is a company situated in Roysambu Kenya.
+                It is Concerned with making various software eg Sacco Management Systems
+                to support client needs
                 </p><br/>
                 <strong>Responsibilities</strong> <br/>
                 <ul>
@@ -134,9 +137,9 @@ export default {
       {
         id: 1,
         title: "Bachelor's degree, Computer Science",
-        company: 'The University of Nairobi',
+        company: 'Jomo Kenyatta University of Agriculture and Technology',
         timeline: '2017- 2021',
-        description: 'The University of Nairobi is a collegiate research university based in Nairobi. It is one of the largest universities in Kenya. Although its history as an educational institution dates back to 1956, it did not become an independent university until 1970.'
+        description: 'Jkuat is a collegiate research university based in Juja, 36 km North East of Nairobi, along Nairobi-Thika Highway. It is one of the largest universities in Kenya. Although its history as an educational institution dates back to 1981, it did not become an independent university until 1994.'
       }
     ]
   }
