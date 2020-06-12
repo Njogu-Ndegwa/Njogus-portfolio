@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "briancheruiyot",
+    "site": "mr-ndegwa",
     "public": "build",
     "ignore": [
       "firebase.json",
