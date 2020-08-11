@@ -1,7 +1,7 @@
 import React from 'react';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import firebase, {Axios, db} from '../helper/firebase';
+import  {Axios, db} from '../helper/firebase';
 
 
 class ContactForm extends React.Component {

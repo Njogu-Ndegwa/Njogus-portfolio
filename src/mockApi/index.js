@@ -18,7 +18,7 @@ export default {
 
     {
       id: 3,
-      stack: 'Javascript/NodeJS/ExpressJs',
+      stack: 'NodeJS/ExpressJs',
       level: '70%'
     },
     {
@@ -55,7 +55,7 @@ export default {
     {
       id: 2,
       title: 'Web Development',
-      description: 'Proficient in building professional web frontend with top frameworks like ReactJS and VanillaJS. I also have worked with ExpressJs for server side rendered applications'
+      description: 'Proficient in building professional web frontend with top frameworks like ReactJS and VanillaJS. I also have worked with NextJs for server side rendered applications'
     },
     {
       id: 3,
@@ -86,28 +86,7 @@ export default {
           <li>Work as a freelancer on various projects offered by clients who need websites that work and backend systems that perform well.</li>
         </ul>`
       },
-      // {
-      //   id: 3,
-      //   title: 'Software Development Engineer in Testing',
-      //   timeline: 'Oct 2019 – Present',
-      //   company: 'Microsoft via Techno Brain Group',
-      //   description: `<strong>Responsibilities</strong> <br />
-      //   <ul>
-      //     <li>Develop test suites for windows systems.</li>
-      //   </ul>`
-      // },
-      // {
-      //   id: 2,
-      //   title: 'Product Owner',
-      //   timeline: 'Jun 2019 – Sep 2019 • 4 mos',
-      //   company: 'Andela',
-      //   description: `<strong>Responsibilities</strong> <br />
-      //   <ul>
-      //     <li>Developed user stories documenting business and functional requirements. Facilitated feasibility and backlog grooming discussions.</li>
-      //     <li>Maintained product backlogs and determined story candidates for release based on value, feasibility, and business and customer impact.</li>
-      //     <li>Tested requirements at all stages of the project, including functional validation and smoke testing of development deliverables to ensure compliance with the functional requirements as specified.</li>
-      //   </ul>`
-      // },
+ 
       {
         id: 1,
         title: 'Software Engineer',
@@ -138,7 +117,7 @@ export default {
         id: 1,
         title: "Bachelor's degree, Computer Science",
         company: 'Jomo Kenyatta University of Agriculture and Technology',
-        timeline: '2017- 2021',
+        timeline: '2016- 2020',
         description: 'Jkuat is a collegiate research university based in Juja, 36 km North East of Nairobi, along Nairobi-Thika Highway. It is one of the largest universities in Kenya. Although its history as an educational institution dates back to 1981, it did not become an independent university until 1994.'
       }
     ]
